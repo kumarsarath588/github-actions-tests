@@ -1,0 +1,15 @@
+---
+centos: "CentOS-7-cloudinit" 
+ubuntu: "Ubuntu1404" 
+storage_container:
+  name: SelfServiceContainer
+  uuid: d53867d9-81ef-43a4-b157-15cf7602426e 
+network:
+  dhcp:
+    name: vlan.800
+    uuid: c2f0cb95-1617-4acd-803c-7df0bd3896f3
+  static:
+    ip:   10.30.30.75
+project:
+  name: integration_test_project
+  uuid: 15ecb863-a2a0-4546-99d7-785ffcdda208
