@@ -1,0 +1,9 @@
+---
+requires_ansible: '>=2.11.6'
+action_groups:
+  ntnx:
+  - ntnx_floating_ips
+  - ntnx_pbrs
+  - ntnx_vms
+  - ntnx_vpcs
+  - ntnx_subnets
